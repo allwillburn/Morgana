@@ -133,7 +133,7 @@ OnTick(function (myHero)
 		
                 end 
 
-                if IsReady(_W) and ValidTarget(enemy, 900) and MorganaMenu.KillSteal.W:Value() and GetHP(enemy) < getdmg("E",enemy) then
+                if IsReady(_W) and ValidTarget(enemy, 900) and MorganaMenu.KillSteal.W:Value() and GetHP(enemy) < getdmg("W",enemy) then
 		         CastSkillShot(_W, target.pos)
   
                 end
